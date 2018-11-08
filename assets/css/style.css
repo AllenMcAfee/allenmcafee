@@ -805,12 +805,13 @@ a {
 }
 #part-home header h1 {
   position: absolute;
-  top: 100px;
+  top: 0px;
   left: 70px;
   z-index: 4;
   width: 600px;
   font: 500 40px/48px 'Work Sans', 'Helvetica', sans-serif;
-  color: #9b9ba4;
+  color: #373738;
+  background: rgba(255,255,255,0.7);
 }
 #part-home header .hero-container {
   position: relative;
