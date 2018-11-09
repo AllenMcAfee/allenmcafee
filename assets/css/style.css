@@ -842,8 +842,8 @@ a {
   position: relative;
   margin: 100px auto 0;
   text-align: center;
-  width: 0px;
-  height: 0px;
+  width: 84px;
+  height: 84px;
 }
 #part-home .icon-container .icon {
   height: 100%;
@@ -1055,6 +1055,12 @@ a {
 }
 #part-home footer .icon-container {
   margin-bottom: 80px;
+}
+#part-home footer .icon-container:before {
+  background: #2a2a2c;
+  bottom: auto;
+  top: 100%;
+  margin-top: 20px;
 }
 #part-home footer .icon {
   fill: $grey-black;
