@@ -1056,12 +1056,6 @@ a {
 #part-home footer .icon-container {
   margin-bottom: 80px;
 }
-#part-home footer .icon-container:before {
-  background: #2a2a2c;
-  bottom: auto;
-  top: 100%;
-  margin-top: 20px;
-}
 #part-home footer .icon {
   fill: $grey-black;
 }
