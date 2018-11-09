@@ -842,8 +842,8 @@ a {
   position: relative;
   margin: 100px auto 0;
   text-align: center;
-  width: 84px;
-  height: 84px;
+  width: 0px;
+  height: 0px;
 }
 #part-home .icon-container .icon {
   height: 100%;
