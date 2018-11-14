@@ -341,6 +341,78 @@ a {
   -webkit-transform: translateX(-100%) rotate(90deg);
           transform: translateX(-100%) rotate(90deg);
 }
+.inline{
+   display: inline-block;
+}
+.label-size{
+   display: inline-block;
+   padding: 0px 10px;
+   height: 24px;
+   line-height:24px;
+   border-radius: 5px;
+   font-weight:bold;
+   font-size:10px;
+   text-decoration:none;
+ }
+.label-size{
+  padding:2px 5px;
+  border: 1px solid #769e42;
+  box-shadow: inset 0 1px 0 #c5e59c ;
+  background-color: #9ed35a;
+  text-shadow: 0px 1px 1px #6ea23b;
+  color: #fff;
+  background-image: linear-gradient(bottom, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+}
+.label-size:hover{
+  background-color: #b7fa66;
+  background-image: linear-gradient(top, #b7fa66 0%, #7ec940 100%);
+  background-image: -o-linear-gradient(top, #b7fa66 0%, #7ec940 100%);
+  background-image: -moz-linear-gradient(top, #b7fa66 0%, #7ec940 100%);
+  background-image: -webkit-linear-gradient(top, #b7fa66 0%, #7ec940 100%);
+  background-image: -ms-linear-gradient(top, #b7fa66 0%, #7ec940 100%);
+}
+.label-size:active{
+  background-image: linear-gradient(top, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+  background-image: -o-linear-gradient(top, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+  background-image: -moz-linear-gradient(top, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+  background-image: -ms-linear-gradient(top, rgb(125,196,64) 0%, rgb(157,210,88) 100%);
+}
+.label-size{
+  display:inline-block;
+  border-right-width:0;
+  position:relative;
+  z-index:5;
+  margin-right: 200px;
+  margin-bottom: 10px;
+}
+.label-size span{
+  padding:2px 5px;
+  border: 1px solid #9e5c26;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 0 #f5bf8c;
+  background-color: #ed943f;
+  text-shadow: 0px 1px 1px #000;
+  margin-left: 10px;
+  background-image: linear-gradient(bottom, rgb(211,95,32) 0%, rgb(223,131,45) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(211,95,32) 0%, rgb(223,131,45) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(211,95,32) 0%, rgb(223,131,45) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(211,95,32) 0%, rgb(223,131,45) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(211,95,32) 0%, rgb(223,131,45) 100%);
+}
+.IssueLabel {
+    border-radius: 2px;
+    box-shadow: inset 0 -1px 0 rgba(27,31,35,.12);
+    font-size: 12px;
+    font-weight: 600;
+    height: 20px;
+    line-height: 15px;
+    padding: .15em 4px;
+}
 .arrow {
   display: inline-block;
   width: 26px;
@@ -430,6 +502,7 @@ a {
   z-index: 3;
 }
 .main-header .main-logo #smilesvg,
+.main-header .main-logo #amlogosvg,
 .main-header .main-logo #eyessvg {
   position: absolute;
   top: 0;
@@ -445,6 +518,10 @@ a {
 }
 .main-header .main-logo #eyessvg {
   background: url("../img/logo-eyes.svg") no-repeat top center;
+  transition: opacity 0.4s;
+}
+.main-header .main-logo #amlogosvg {
+  background: url("../img/am-logo.svg") no-repeat top center;
   transition: opacity 0.4s;
 }
 .main-header .main-logo.loading #eyessvg {
@@ -796,6 +873,7 @@ a {
             transform: rotate(360deg);
   }
 }
+#Label1 {height:210px !important;}
 #part-home {
   padding-left: 80px;
 }
@@ -1396,6 +1474,8 @@ a {
   -webkit-transform-origin: 50% 1400px;
           transform-origin: 50% 1400px;
 }
+#part-worksSingle header .hero-pic.spoon img {
+}
 #part-worksSingle header .titles {
   position: absolute;
   top: 4vw;
@@ -1730,6 +1810,7 @@ a {
   }
   #part-worksSingle header .background-pic,
   #part-worksSingle header .hero-pic.phone,
+  #part-worksSingle header .hero-pic.spoon,
   #part-worksSingle header .hero-pic.laptop {
     left: auto;
     right: 0;
