@@ -514,14 +514,14 @@ a {
 }
 .main-header .main-logo #smilesvg {
   margin-top: -6px;
-  background: url("../assets/img/logo-smile.svg") no-repeat bottom center;
+  background: url("../img/logo-smile.svg") no-repeat bottom center;
 }
 .main-header .main-logo #eyessvg {
-  background: url("../assets/img/logo-eyes.svg") no-repeat top center;
+  background: url("../img/logo-eyes.svg") no-repeat top center;
   transition: opacity 0.4s;
 }
 .main-header .main-logo #amlogosvg {
-  background: url("../assets/img/am-logo.svg") no-repeat top center;
+  background: url("../img/am-logo.svg") no-repeat top center;
   transition: opacity 0.4s;
 }
 .main-header .main-logo.loading #eyessvg {
