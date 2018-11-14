@@ -521,7 +521,7 @@ a {
   transition: opacity 0.4s;
 }
 .main-header .main-logo #amlogosvg {
-  background: url("../img/am-logo.svg") no-repeat top center;
+  background: url("../img/logo.svg") no-repeat top center;
   transition: opacity 0.4s;
 }
 .main-header .main-logo.loading #eyessvg {
