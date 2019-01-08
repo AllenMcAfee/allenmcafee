@@ -10003,7 +10003,7 @@ var App = function () {
 
 		this.loading = false;
 
-		this.popinImprint = (0, _jquery2.default)('.popin-imprint');
+		this.popinresume = (0, _jquery2.default)('.popin-resume');
 
 		this._initEvents();
 
@@ -10050,7 +10050,7 @@ var App = function () {
 		key: '_onResize',
 		value: function _onResize() {
 
-			this.popinImprint.css({
+			this.popinresume.css({
 				'min-height': _W2.default.wh
 			});
 		}
@@ -10519,7 +10519,7 @@ var Home = function (_Page) {
 			_get(Object.getPrototypeOf(Home.prototype), '_initContent', this).call(this);
 
 			this.popin = new _Popin2.default({
-				name: 'imprint'
+				name: 'resume'
 			});
 
 			this.$heroContact = this.$heroContainer.find('.contact');
