@@ -458,6 +458,9 @@ a {
 .popin-resume p {
   margin-bottom: 22px;
 }
+.popin-resume ul {
+    list-style-type: circle;
+}
 .popin-resume .center {
   padding-left: 120px;
   box-sizing: border-box;
@@ -810,11 +813,6 @@ h4 {
 }
 p, ul, ol {
   margin-bottom: 1.1em;
-}
-ul, ol {
-  padding: 0;
-  margin-bottom: .7em;
-  list-style-type: circle;
 }
 .sub {
  width: 90%;
