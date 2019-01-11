@@ -1034,7 +1034,7 @@ p, ul, ol {
 }
 #part-home .contact span {
   font-size: 18px;
-  color: #4b32f0;
+  color: #327af0;
   display: block;
   margin-bottom: 3px;
 }
@@ -1117,7 +1117,7 @@ p, ul, ol {
   color: #fff;
   margin: 0 auto;
   text-align: center;
-  background: #4b32f0;
+  background: #327af0;
   padding: 110px 0;
 }
 #part-home .skills p {
@@ -1148,7 +1148,7 @@ p, ul, ol {
   text-align: center;
   width: 400px;
   text-align: center;
-  color: #4b32f0;
+  color: #327af0;
   margin: 0 auto;
   position: relative;
 }
@@ -1157,7 +1157,7 @@ p, ul, ol {
   content: '';
   height: 15px;
   width: 15px;
-  background: #4b32f0;
+  background: #327af0;
   border-radius: 100%;
   margin: 0 auto 40px;
 }
@@ -1165,10 +1165,10 @@ p, ul, ol {
   margin-top: 100px;
 }
 #part-home .quote .icon-container:before {
-  background: #4b32f0;
+  background: #327af0;
 }
 #part-home .quote .icon {
-  fill: #4b32f0;
+  fill: #327af0;
 }
 #part-home .position {
   max-width: 950px;
