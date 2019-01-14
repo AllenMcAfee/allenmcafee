@@ -1650,7 +1650,7 @@ p, ul, ol {
 }
 #part-worksSingle header h2 {
   font: 500 24px/28px 'Work Sans', 'Helvetica', sans-serif;
-  margin-top: -20px;
+  margin-top: -40px;
   margin-bottom: 20px;
 }
 #part-worksSingle header h1 {
@@ -1881,6 +1881,10 @@ p, ul, ol {
   #part-worksSingle header .background-pic {
     left: 62px;
     overflow: hidden;
+  }
+  #part-worksSingle header .background-pic.robo {
+    height: auto;
+    width: 100%;
   }
   #part-worksSingle header .background-pic img {
     height: 100%;
