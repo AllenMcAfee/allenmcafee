@@ -1637,17 +1637,6 @@ p, ul, ol {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-#part-worksSingle header .titles_robo {
-  position: absolute;
-  top: 0.5vw;
-  z-index: 4;
-  box-sizing: border-box;
-  width: 80vw;
-  margin: 0 auto;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
 #part-worksSingle header .titles span {
   display: block;
 }
@@ -1681,7 +1670,7 @@ p, ul, ol {
   padding: 0 80px;
   box-sizing: border-box;
   overflow: auto;
-  margin: 75px auto 35px;
+  margin: 350px auto 170px;
 }
 #part-worksSingle .infos .title {
   font: 500 24px/32px 'Work Sans', 'Helvetica', sans-serif;
@@ -1896,7 +1885,6 @@ p, ul, ol {
   #part-worksSingle header .background-pic.robo {
     height: auto;
     width: 100%;
-    bottom: auto;
   }
   #part-worksSingle header .background-pic img {
     height: 100%;
@@ -1927,10 +1915,6 @@ p, ul, ol {
   }
   #part-worksSingle header .hero-pic.laptop img {
     height: 55%;
-  }
-  #part-worksSingle header .hero-pic.none img {
-    height: 0;
-    bottom: 0;
   }
   #part-worksSingle .infos {
     max-width: none;
@@ -1987,7 +1971,6 @@ p, ul, ol {
     width: 80vw;
     height: 80vw;
   }
-  #part-worksSingle header .hero-pic.none {}
   #part-worksSingle header .hero-pic phone img {
     height: 105%;
   }
