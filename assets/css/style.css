@@ -1670,7 +1670,7 @@ p, ul, ol {
   padding: 0 80px;
   box-sizing: border-box;
   overflow: auto;
-  margin: 350px auto 170px;
+  margin: 100px auto 170px;
 }
 #part-worksSingle .infos .title {
   font: 500 24px/32px 'Work Sans', 'Helvetica', sans-serif;
