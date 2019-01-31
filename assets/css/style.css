@@ -2249,45 +2249,45 @@ p, ul, ol {
   width: 1300px;
   display: inline;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(1) {
+#part-worksSingle .project-robo .part:nth-child(1) {
   margin-bottom: 100px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(1) .background-skewed {
+#part-worksSingle .project-robo .part:nth-child(1) .background-skewed {
   height: 3200px;
   top: 445px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(1) .background-skewed:before {
+#part-worksSingle .project-robo .part:nth-child(1) .background-skewed:before {
   background: #ffc8c2;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(1) ul {
+#part-worksSingle .project-robo .part:nth-child(1) ul {
   overflow: auto;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(1) li {
+#part-worksSingle .project-robo .part:nth-child(1) li {
   width: 33.333333333333336%;
   float: left;
   position: relative;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(1) li p {
+#part-worksSingle .project-robo .part:nth-child(1) li p {
   font: 400 16px/26px 'Work Sans', 'Helvetica', sans-serif;
   color: #2a2a2c;
   text-align: center;
   max-width: 40%;
   margin: 45px auto 0;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(1) span {
+#part-worksSingle .project-robo .part:nth-child(1) span {
   font: 500 24px/26px 'Work Sans', 'Helvetica', sans-serif;
   margin-right: 10px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) {
+#part-worksSingle .project-robo .part:nth-child(2) {
   margin-bottom: 100px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart {
   position: relative;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) {
   margin-bottom: 100px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) > img:first-child {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) > img:first-child {
   display: block;
   position: relative;
   z-index: 2;
@@ -2298,10 +2298,10 @@ p, ul, ol {
           transform: translateX(-50%);
   width: 520px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) .iphone-container {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) .iphone-container {
   z-index: 3;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) ul {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) ul {
   position: absolute;
   z-index: 3;
   top: 68px;
@@ -2311,11 +2311,11 @@ p, ul, ol {
   color: #2a2a2c;
   font: 400 16px/30px 'Work Sans', 'Helvetica', sans-serif;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li {
   position: absolute;
   width: 200px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li span {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li span {
   display: block;
   height: 1px;
   width: 100%;
@@ -2323,7 +2323,7 @@ p, ul, ol {
   position: absolute;
   top: 17px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li span:after {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li span:after {
   display: block;
   content: '';
   height: 21px;
@@ -2334,53 +2334,53 @@ p, ul, ol {
   position: absolute;
   top: -13px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(1) {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(1) {
   left: 200%;
   margin-left: -30px;
   top: 40px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(1) span {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(1) span {
   right: 100%;
   margin-right: 10px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(1) span:after {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(1) span:after {
   right: 100%;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(2) {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(2) {
   right: 200%;
   margin-right: -30px;
   margin-top: 200px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(2) span {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(2) span {
   left: 100%;
   margin-left: 10px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(2) span:after {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(2) span:after {
   left: 100%;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(3) {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(3) {
   left: 200%;
   margin-left: -30px;
   top: 362px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(3) span {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(3) span {
   right: 100%;
   margin-right: 10px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(3) span:after {
+#part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(3) span:after {
   right: 100%;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2):nth-child(2) .iphone-container:not(.horizontal) aside {
+#part-worksSingle .project-robo .part:nth-child(2):nth-child(2) .iphone-container:not(.horizontal) aside {
   position: absolute;
   top: 126px;
   left: -149px;
   z-index: 2;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2):nth-child(2) .iphone-container:not(.horizontal) aside p {
+#part-worksSingle .project-robo .part:nth-child(2):nth-child(2) .iphone-container:not(.horizontal) aside p {
   margin: 5px 0 0 5px;
   width: 160px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(2):nth-child(2) .iphone-container.horizontal .legend {
+#part-worksSingle .project-robo .part:nth-child(2):nth-child(2) .iphone-container.horizontal .legend {
   font: 400 18px/28px 'Work Sans', 'Helvetica', sans-serif;
   position: absolute;
   top: calc(100% + 20px);
@@ -2392,64 +2392,64 @@ p, ul, ol {
   box-sizing: border-box;
   color: #2a2a2c;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(3) {
+#part-worksSingle .project-robo .part:nth-child(3) {
   padding-top: 100px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(3) .background-skewed {
+#part-worksSingle .project-robo .part:nth-child(3) .background-skewed {
   height: 1250px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(3) .background-skewed:before {
+#part-worksSingle .project-robo .part:nth-child(3) .background-skewed:before {
   background: #cbe2ed;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(3) ul {
+#part-worksSingle .project-robo .part:nth-child(3) ul {
   width: 1040px;
   overflow: auto;
   margin: 0 auto;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(3) li {
+#part-worksSingle .project-robo .part:nth-child(3) li {
   width: 50%;
   float: left;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(3) .legend {
+#part-worksSingle .project-robo .part:nth-child(3) .legend {
   width: 290px;
   margin: 30px auto 0;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(3) .legend p:nth-child(1) {
+#part-worksSingle .project-robo .part:nth-child(3) .legend p:nth-child(1) {
   font: 500 24px/42px 'Work Sans', 'Helvetica', sans-serif;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(3) .legend p:nth-child(2) {
+#part-worksSingle .project-robo .part:nth-child(3) .legend p:nth-child(2) {
   padding-right: 60px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(4) {
+#part-worksSingle .project-robo .part:nth-child(4) {
   margin-bottom: 100px;
 }
-#part-worksSingle .project-mycomfort .part:nth-child(4) img {
+#part-worksSingle .project-robo .part:nth-child(4) img {
   width: 1300px;
 }
 @media screen and (max-width: 960px) {
-  #part-worksSingle .project-mycomfort .part:nth-child(1) li p {
+  #part-worksSingle .project-robo .part:nth-child(1) li p {
     margin-top: 20px;
     max-width: 60%;
   }
-  #part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) > img:first-child {
+  #part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) > img:first-child {
     width: 370px;
     top: 30px;
   }
-  #part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li {
+  #part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li {
     width: 105px;
   }
-  #part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(1) {
+  #part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(1) {
     left: 150%;
   }
-  #part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(2) {
+  #part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(2) {
     right: 150%;
     margin-top: 150px;
   }
-  #part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li:nth-child(3) {
+  #part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li:nth-child(3) {
     left: 150%;
     margin-top: -150px;
   }
-  #part-worksSingle .project-mycomfort .part:nth-child(2) .subpart:nth-child(2) li p {
+  #part-worksSingle .project-robo .part:nth-child(2) .subpart:nth-child(2) li p {
     width: 150px;
   }
 }
