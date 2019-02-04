@@ -1632,6 +1632,10 @@ p, ul, ol {
           transform-origin: 50% 100%;
 }
 #part-worksSingle header .hero-pic.laptop img {
+  bottom: -350px;
+  margin-left: -904px;
+  -webkit-transform-origin: 50% 850px;
+          transform-origin: 50% 850px;
 }
 #part-worksSingle header .hero-pic.phone img {
   bottom: -350px;
