@@ -1041,7 +1041,7 @@ p, ul, ol {
 }
 #part-home header h1 {
   position: absolute;
-  top: 0px;
+  top: 100px;
   left: 70px;
   z-index: 4;
   width: 600px;
@@ -1065,7 +1065,7 @@ p, ul, ol {
   display: block;
   position: absolute;
   max-width: calc(100% - 100px);
-  max-height: 90%;
+  max-height: 100%;
   margin: 0 auto;
   bottom: 0;
   z-index: 1;
@@ -1643,7 +1643,7 @@ p, ul, ol {
 }
 #part-worksSingle header .titles {
   position: absolute;
-  top: 3vw;
+  top: 4vw;
   z-index: 4;
   box-sizing: border-box;
   width: 80vw;
@@ -1659,14 +1659,13 @@ p, ul, ol {
 #part-worksSingle header .titles h2 {
   position: relative;
   overflow: hidden;
-  text-align: left;
 }
 #part-worksSingle header h1 {
   font: 500 72px/84px 'Work Sans', 'Helvetica', sans-serif;
 }
 #part-worksSingle header h2 {
   font: 500 24px/28px 'Work Sans', 'Helvetica', sans-serif;
-  margin-top: -40px;
+  margin-top: -20px;
   margin-bottom: 20px;
 }
 #part-worksSingle header h1 {
