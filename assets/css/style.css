@@ -1659,6 +1659,7 @@ p, ul, ol {
 #part-worksSingle header .titles h2 {
   position: relative;
   overflow: hidden;
+  text-align: left;
 }
 #part-worksSingle header h1 {
   font: 500 72px/84px 'Work Sans', 'Helvetica', sans-serif;
