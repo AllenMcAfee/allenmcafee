@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <![endif]-->
 
-    <link rel="canonical" href="sandbox.html" />
+    <link rel="canonical" href="software.html" />
 
     <title>Allen McAfee</title>
     <meta name="description" content="Allen McAfee is an engineering and product manager based in San Diego. He helps simplify complex technologies.">
@@ -24,7 +24,7 @@
     <!-- FACEBOOK -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Allen McAfee - Product &amp; Engineering Manager">
-    <meta property="og:url" content="sandbox.html">
+    <meta property="og:url" content="software.html">
     <meta property="og:image" content="../assets/allen-mcafee.jpg">
     <meta property="og:site_name" content="">
     <meta property="og:description" content="Allen McAfee is an engineering and product manager based in San Diego. He helps simplify complex technologies.">
@@ -69,27 +69,31 @@
 
 	<a class="main-logo" href="/">
 		<div id="amlogosvg"></div>
+
 	</a>
 
 	<p>The works of <a href="http://github.com/allenmcafee" target="_blank">@allenmcafee</a></p>
 
 	<nav class="main-nav">
 
-    <div class="mask mask-outer">
+		<div class="mask mask-outer">
 			<div class="mask mask-inner">
-				<ul class="list">
-						<li><a href="https://allenmcafee.com">About me</a></li>
-						<li><a href="../works/robo">Robo 3D</a></li>
-            <li class="current"><a href="../works/sandbox">SandBox</a></li>
-						<li><a href="../works/delta">Delta@MoMA</a></li>
-				</ul>
+        <ul class="list">
+					    <li><a href="https://allenmcafee.com">About me</a></li>
+              <li><a href="/works/printers">Matter Compilers</a></li>
+              <li class="current"><a href="/works/delta">Software</a></li>
+              <li><a href="/works/products">Other Products</a></li>
+              <li><a href="/works/projects">Projects</a></li>
+              <li><a href="/works/museum">Museum Exhibits</a></li>
+					</ul>
 
 				<ul class="pictures">
-
-  					<li><img src="../assets/medias/home/allen-mcafee.jpg" /></li>
-  					<li><img src="../assets/medias/nav/navigation-robo.jpg" /></li>
-            <li class="current"><img src="../assets/medias/nav/navigation-sandbox.jpg" /></li>
-  					<li><img src="../assets/medias/nav/navigation-delta.jpg" /></li>
+				      <li><img src="../assets/medias/home/allen-mcafee.jpg" /></li>
+              <li><img src="assets/medias/nav/navigation-robo.jpg" /></li>
+    					<li class="current"><img src="assets/medias/nav/navigation-viz.jpg" /></li>
+    					<li><img src="assets/medias/nav/navigation-spoon.jpg" /></li>
+    					<li><img src="assets/medias/nav/navigation-projects.jpg" /></li>
+							<li><img src="../assets/medias/nav/navigation-museum.jpg" /></li>
 
 				</ul>
 			</div>
@@ -111,60 +115,37 @@
 
 <div class="ajax-container" id="part-worksSingle">
 
-  <a href="delta.html" class="button-next">
+  <a href="products.html" class="button-next">
   	<span></span>
-  	<p><strong>Delta@MoMA</strong></p>
+  	<p><strong>Other Products</strong></p>
   </a>
 
   <header>
-
-  	<div class="titles">
-  		<h1><span>SandBox</span></h1>
-  		<h2><span>An open source inkjet/powder 3D printer</span></h2>
-  	</div>
-
-  	<div class="hero-container">
-  		<div class="background-pic">
-  			<img src="../assets/medias/works/sandbox/MakeMagazineHIW.jpg" class="background" />
-  		</div>
-  		<div class="hero-pic spoon">
-  			<img src="" class="hero"/>
-  		</div>
-  		<div class="hero-scroll"><p>explore more <span class="arrow"></span></p></div>
-  	</div>
-
-  	<div class="infos">
-  		<p class="title">An open-source platform to explore new powdered printing materials, as well as the binders that hold them together.</p>
-  		<p class="text">While the RepRap project was gaining steam, I wanted to explore non-polymeric printing materials but lacked access to even
-        the cheapest powder printer of the time (start @ $45K).  The SandBox was born out of a need for a test platform that would deposit binder
-        fluid where I needed.
-        <br>
-        <br>
-        Over 4 months, I designed, built, and programmed the first version using an entirely acrlyic assembly.  By V3, the designed evolved to
-        included aluminum linear railings and Delrin bushings to guard against corrosive powders like salt, and a extruded aluminum frame.  The electronics
-        started with an Arduino Mega connected to a horribly messy breadboard driver circuit for the inkjet head.  The third revision was aimed
-        at creating a shield that would stack with an Arduino Mega and a standard RAMPS 1.4 driver board.
-        <br>
-        <br>
-        Materials successfully printed with included salt, gypsum, terra cotta, aluminde, sugar, wood, and concrete.  Binder formula work included dry
-        and liquid agents.
-      </p>
-  		<ul>
-  			<li><strong>Team</strong>Fab Lab San Diego </li>
-  			<li><strong>Role</strong>Lead Developer</li>
-  			<li><strong>Scope</strong>Design for Manufacturing, CAD, Firmware, Slicer</li>
-  		</ul>
-  	</div>
+    <div class="columns-list">
+      <div class="infos">
+        <p class="text">The Robo App is made for local printer control, monitoring, troubleshooting, and even shopping.  Made to work with any
+        printer running Octoprint and Marlin.</p>
+        <ul>
+          <li><img src="../assets/medias/works/robomobile/app_header.jpg" ></li>
+        </ul>
+      </div>
+      <div class="infos">
+    		<p class="text">Robo's flagship desktop app, made for use with all Robo branded printers.  Advance slicing features, wireless printing,
+        and even help desk ticketing make printer easier for the newcomer.</p>
+        <ul>
+          <li><img src="../assets/medias/nav/navigation-cura.jpg" ></li>
+        </ul>
+      </div>
+      	<div class="infos">
+      		<p class="text">Using the JustVisual API, Viz compares your image to our feed of thousands of STLs to find you a printable match.</p>
+          <ul>
+            <li><img src="../assets/medias/nav/navigation-viz.jpg" ></li>
+          </ul>
+        </div>
 
   </header>
 
-  <section class="medias">
-    <img src="../assets/medias/works/sandbox/electronics.jpg" />
-      <img src="../assets/medias/works/sandbox/sandboxprint.jpg" />
-      <img src="../assets/medias/works/sandbox/moon.jpg" />
-	  <img src="../assets/medias/works/sandbox/rings.jpg" />
-    <div class="line"></div>
-  </section>
+
 
 </div>
 
@@ -254,8 +235,7 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 <script type="text/javascript" src="../assets/js/scripts.js"></script>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 </body>
 
