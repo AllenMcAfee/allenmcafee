@@ -842,6 +842,12 @@ a {
 .main-header.displayed .list li:nth-child(6) {
   transition-delay: 250ms;
 }
+.main-header.displayed .list li:nth-child(7) {
+  transition-delay: 250ms;
+}
+.main-header.displayed .list li:nth-child(8) {
+  transition-delay: 250ms;
+}
 .row:after {
   content: "";
   display: table;
