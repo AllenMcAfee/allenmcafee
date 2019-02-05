@@ -729,7 +729,7 @@ a {
   opacity: 0;
 }
 .main-header .main-nav .list li:nth-child(1) {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .main-header .main-nav .list li:hover,
 .main-header .main-nav .list li.current,
@@ -1014,7 +1014,7 @@ p, ul, ol {
     top: 10%;
   }
   .main-header .main-nav .list li:nth-child(1) {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 }
 @-webkit-keyframes rotation {
