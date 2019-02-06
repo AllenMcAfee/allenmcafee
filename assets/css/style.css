@@ -906,7 +906,8 @@ p, ul, ol {
 }
 .sub-thirds > ul > li {
 }
-
+.wc__flex-row--wrap {
+}
 .wc__flex-row--wrap {
     max-width: 100%;
     -ms-flex-wrap: wrap;
@@ -920,8 +921,6 @@ p, ul, ol {
     height: 100%;
     max-width: 1920px;
     margin: auto;
-}
-.wc__flex-row--wrap {
 }
 .wc__flex-c-stack {
     display: -webkit-box;
