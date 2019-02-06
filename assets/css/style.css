@@ -1796,13 +1796,13 @@ p, ul, ol {
   margin-left: 200px;
   margin-bottom: 30px;
 }
-#part-worksSingle .columns-display .title, .work .title {
+.columns-display .title {
   font: 500 28px/32px 'Work Sans', 'Helvetica', sans-serif;
   width: 450px;
   text-align: center;
   margin-bottom: 30px;
 }
-#part-worksSingle .work h1 {
+.work h1 {
   font: 500 30px/32px 'Work Sans', 'Helvetica', sans-serif;
   width: 450px;
   text-align: center;
