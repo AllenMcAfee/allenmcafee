@@ -960,8 +960,8 @@ p, ul, ol {
 }
 @media only screen and (min-width: 57.5625rem) {
   .flex-stack {
-      -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+      -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
   }
 }
 @media only screen and (min-width: 40.0625rem) {
@@ -973,7 +973,7 @@ p, ul, ol {
 }
 @media only screen and (min-width: 57.5625rem) {
   .flex-row--wrap {
-      min-height: 650px;
+      min-height: 450px;
       max-height: 100vh;
   }
 }
