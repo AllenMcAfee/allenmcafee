@@ -966,13 +966,13 @@ p, ul, ol {
 .wc-slide {
     position: relative;
 }
-@media only screen and (min-width: 40.0625rem)
+@media only screen and (min-width: 40.0625rem) {
 .wc__flex-row, .wc__flex-row--wrap {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-@media only screen and (min-width: 57.5625rem)
+@media only screen and (min-width: 57.5625rem) {
 .wc__flex-row--wrap {
     min-height: 650px;
     max-height: 100vh;
