@@ -949,15 +949,18 @@ p, ul, ol {
     padding: 2.5rem 2rem 0;
 }
 .flex-stack-content, .flex-stack-content--black, .flex-stack-content--narrow {
-    padding: 1rem 2rem 0;
+    padding: 1rem 0 0;
     text-align: center;
     width: 100%;
 }
 .flex-stack-content h2 {
   text-align: center;
-  font-size: 2.25rem;
+  font-size: 2.25em;
   margin-bottom: 1em;
   letter-spacing: -.04em;
+}
+.flex-stack-content p, ul, ol {
+    margin-bottom: 2.25em;
 }
 .flex-stack img {
     width: 100%;
