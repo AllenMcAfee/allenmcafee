@@ -907,8 +907,6 @@ p, ul, ol {
 .sub-thirds > ul > li {
 }
 .wc__flex-row--wrap {
-}
-.wc__flex-row--wrap {
     max-width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
