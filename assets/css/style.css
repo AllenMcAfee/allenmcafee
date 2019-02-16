@@ -1148,7 +1148,7 @@ p, ul, ol {
 }
 @keyframes shadow-pulse{
   0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}
-  100% {box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);}
+  100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}
 }
 @keyframes shadow-pulse-big{
   0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);}
