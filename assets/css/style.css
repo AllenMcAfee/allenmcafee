@@ -628,7 +628,7 @@ a {
   height: 58px;
   width: 58px;
   border-radius: 100%;
-  background: #DC475A;
+  background: #ff0000;
   position: absolute;
   top: 50%;
   right: 0%;
@@ -1148,7 +1148,7 @@ p, ul, ol {
 }
 @keyframes shadow-pulse{
   0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.4);}
-  100% {box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);}
+  100% {box-shadow: 0 0 0 16px rgba(255, 0, 0, 0);}
 }
 @keyframes shadow-pulse-big{
   0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);}
