@@ -1766,7 +1766,7 @@ p, ul, ol {
   -webkit-transform-origin: 50% 1400px;
           transform-origin: 50% 1400px;
 }
-#part-worksSingle header .hero-pic.spoon img {
+#part-worksSingle header .hero-pic.none img {
 }
 #part-worksSingle header .titles {
   position: absolute;
@@ -2061,7 +2061,8 @@ p, ul, ol {
             transform: translateX(-50%) !important;
   }
   #part-worksSingle header .hero-pic.laptop,
-  #part-worksSingle header .hero-pic.phone {
+  #part-worksSingle header .hero-pic.phone,
+  #part-worksSingle header .hero-pic.none {
     left: 62px;
   }
   #part-worksSingle header .hero-pic.laptop img,
@@ -2127,7 +2128,7 @@ p, ul, ol {
   }
   #part-worksSingle header .background-pic,
   #part-worksSingle header .hero-pic.phone,
-  #part-worksSingle header .hero-pic.spoon,
+  #part-worksSingle header .hero-pic.none,
   #part-worksSingle header .hero-pic.laptop {
     left: auto;
     right: 0;
