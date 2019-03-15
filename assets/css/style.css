@@ -1172,12 +1172,14 @@ p, ul, ol {
   color: #373738;
   background: rgba(255,255,255,0.7);
 }
-#part-home header .hero-container {
+#part-home header .hero-container,
+#part-home header .hero-container-none {
   position: relative;
   width: calc(100% - 80px);
   margin-left: 40px;
 }
-#part-home header .hero-container .contact {
+#part-home header .hero-container .contact,
+#part-home header .hero-container-none .contact {
   margin-top: 50px;
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
@@ -1475,7 +1477,8 @@ p, ul, ol {
   transition: -webkit-transform 1500ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms, opacity 1000ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms;
   transition: transform 1500ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms, opacity 1000ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms;
 }
-#part-home.displayed header .hero-container {
+#part-home.displayed header .hero-container,
+#part-home.displayed header .hero-container-none {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
   transition: -webkit-transform 1000ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms, opacity 500ms cubic-bezier(0.19, 1, 0.22, 1) 1000ms;
@@ -1496,7 +1499,8 @@ p, ul, ol {
   -webkit-transform: translateY(200px) rotate(90deg) translateY(-100%);
           transform: translateY(200px) rotate(90deg) translateY(-100%);
 }
-#part-home.pre-displayed header .hero-container {
+#part-home.pre-displayed header .hero-container,
+#part-home.pre-displayed header .hero-container-none {
   opacity: 0;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
@@ -1516,7 +1520,8 @@ p, ul, ol {
   -webkit-transform: translateY(-100px) rotate(90deg) translateY(-100%);
           transform: translateY(-100px) rotate(90deg) translateY(-100%);
 }
-#part-home.hidden header .hero-container {
+#part-home.hidden header .hero-container,
+#part-home.hidden header .hero-container-none {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   opacity: 0;
@@ -1614,14 +1619,16 @@ p, ul, ol {
     -webkit-transform: none;
             transform: none;
   }
-  #part-home header .hero-container {
+  #part-home header .hero-container,
+  #part-home header .hero-container-none {
     height: auto !important;
     width: auto;
     margin: 40px 0 0 45px;
     text-align: right;
     float: right;
   }
-  #part-home header .hero-container .contact {
+  #part-home header .hero-container .contact,
+  #part-home header .hero-container-none .contact {
     display: none;
   }
   #part-home header .background-wrapper {
@@ -1730,7 +1737,8 @@ p, ul, ol {
   height: 100%;
   width: 100%;
 }
-#part-worksSingle header .hero-container {
+#part-worksSingle header .hero-container,
+#part-worksSingle header .hero-container-none {
   position: relative;
   width: calc(100% - 80px);
   margin-left: 80px;
@@ -2125,6 +2133,12 @@ p, ul, ol {
     width: 80vw;
     height: 80vw !important;
     margin-bottom: 120px;
+  }
+  #part-worksSingle header .hero-container.none {
+    float: right;
+    width: 80vw;
+    height: 0vw !important;
+    margin-bottom: 200px;
   }
   #part-worksSingle header .background-pic,
   #part-worksSingle header .hero-pic.phone,
