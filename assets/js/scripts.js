@@ -10787,7 +10787,7 @@ var WorksSingle = function (_Page) {
 			this.heroPic = {
 				elm: this.$container.find('.hero-pic img'),
 				loaded: false,
-				type: this.$container.find('.hero-pic').attr('class').match('phone') ? 'phone' : 'laptop'
+				type: this.$container.find('.hero-pic').attr('class').match('phone') ? 'phone' : 'none'
 			};
 			this.$backgroundPic = this.$container.find('.background');
 			this.heroPic.elm.on('load', function () {
