@@ -2138,7 +2138,7 @@ p, ul, ol {
   #part-worksSingle header .hero-container.none {
     float: right;
     width: 80vw;
-    height: 0vw !important;
+    height: 20vw !important;
     margin-bottom: 200px;
   }
   #part-worksSingle header .background-pic,
