@@ -10792,7 +10792,6 @@ var WorksSingle = function (_Page) {
 			this.$backgroundPic = this.$container.find('.background');
 			this.heroPic.elm.on('load', function () {
 				_this2._resizeHeroPic();
-				loadImage.onerror = function() {
 			});
 			this.$backgroundPic.on('load', function () {
 				_this2._onResize();
