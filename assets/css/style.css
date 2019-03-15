@@ -2044,7 +2044,8 @@ p, ul, ol {
   #part-worksSingle header .titles h1 span {
     padding-bottom: 10px;
   }
-  #part-worksSingle header .hero-container {
+  #part-worksSingle header .hero-container,
+  #part-worksSingle header .hero-container-none {
     width: calc(100% - 80px);
     margin-left: 0;
     margin-top: 0;
