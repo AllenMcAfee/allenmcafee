@@ -4,13 +4,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
 <g>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#414141" d="M11.778,2.676C13.31,5.667,14.65,8.851,16,12.024
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M11.778,2.676C13.31,5.667,14.65,8.851,16,12.024
 		c-2.19,5.149-4.499,10.178-6.785,15.229c-2.815,0-5.63,0-8.444,0C4.471,19.092,8.108,10.868,11.778,2.676z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#414141" d="M20.223,2.676c3.957,7.904,7.278,16.445,11.157,24.427
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M20.223,2.676c3.957,7.904,7.278,16.445,11.157,24.427
 		c-2.513,0.352-5.68,0.051-8.444,0.151c-2.305-4.983-4.486-10.088-6.785-15.079C17.331,8.831,18.973,5.95,20.223,2.676z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#414141" d="M16,16.548c0.858,1.553,1.567,3.258,2.262,4.976
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M16,16.548c0.858,1.553,1.567,3.258,2.262,4.976
 		c-1.458,0-2.915,0-4.373,0C14.53,19.802,15.397,18.308,16,16.548z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#414141" d="M19.016,23.183c0.626,1.334,1.278,2.642,1.81,4.071
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M19.016,23.183c0.626,1.334,1.278,2.642,1.81,4.071
 		c-3.167,0-6.333,0-9.5,0c0.644-1.366,1.065-2.956,1.96-4.071C15.195,23.183,17.105,23.183,19.016,23.183z"/>
 </g>
 </svg>
