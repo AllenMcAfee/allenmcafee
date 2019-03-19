@@ -717,7 +717,7 @@ a {
 }
 .main-header .main-nav .list li {
   position: relative;
-  color: #9b9ba4;
+  color: #f4f4ff;
 }
 .main-header .main-nav .list li:before {
   display: block;
