@@ -1017,7 +1017,7 @@ p, ul, ol {
   .main-header.displayed {
     height: auto;
     min-height: 100%;
-    background: #fff;
+    background: #000;
     -webkit-overflow-scrolling: touch;
     overflow: auto;
   }
