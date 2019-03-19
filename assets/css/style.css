@@ -683,7 +683,7 @@ a {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #fff;
+  background: #000;
   z-index: 1;
 }
 .main-header .main-nav .pictures {
@@ -725,7 +725,7 @@ a {
   width: 14px;
   height: 14px;
   border-radius: 100%;
-  background: #000;
+  background: #327af0;
   position: absolute;
   top: 50%;
   margin-top: -7px;
