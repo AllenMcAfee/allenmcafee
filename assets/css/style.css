@@ -952,7 +952,7 @@ p, ul, ol {
 .flex-stack-content--narrow {
     padding: 2.5rem 2rem 0;
 }
-.flex-stack-content, .flex-stack-content--black, .flex-stack-content--narrow {
+.flex-stack-content, .flex-stack-content--black, .flex-stack-content--narrow, .flex-stack-content--index {
     padding: 1rem 0 0;
     text-align: center;
     width: 100%;
