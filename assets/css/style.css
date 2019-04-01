@@ -705,7 +705,7 @@ a {
           transform: translateX(-50%) translateY(-50%);
 }
 .main-header .main-nav .list {
-  font: 300 35px/60px 'Work Sans', 'Helvetica', sans-serif
+  font: 300 35px/60px 'Work Sans', 'Helvetica', sans-serif;
   position: absolute;
   left: 100px;
   top: 100px;
