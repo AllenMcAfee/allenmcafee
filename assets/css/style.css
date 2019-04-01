@@ -705,7 +705,7 @@ a {
           transform: translateX(-50%) translateY(-50%);
 }
 .main-header .main-nav .list {
-  font: 300 30px/50px 'Work Sans', 'Helvetica', sans-serif;
+  font: 300 35px/60px 'Work Sans', 'Helvetica', sans-serif
   position: absolute;
   left: 100px;
   top: 100px;
@@ -733,7 +733,7 @@ a {
   opacity: 0;
 }
 .main-header .main-nav .list li:nth-child(1) {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 .main-header .main-nav .list li:hover,
 .main-header .main-nav .list li.current,
