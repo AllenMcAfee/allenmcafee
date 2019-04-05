@@ -1152,7 +1152,7 @@ p, ul, ol {
 }
 @keyframes shadow-pulse{
   0% {box-shadow: 0 0 0 0px rgba(255, 0, 0, 0.4);}
-  100% {box-shadow: 0 0 0 16px rgba(255, 0, 0, 0);}
+  100% {box-shadow: 0 0 0 30px rgba(255, 0, 0, 0);}
 }
 @keyframes shadow-pulse-big{
   0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);}
@@ -1721,6 +1721,10 @@ p, ul, ol {
     font-size: 18px;
     line-height: 1.5;
     padding-right: 30px;
+  }
+  @keyframes shadow-pulse{
+    0% {box-shadow: 0 0 0 0px rgba(255, 0, 0, 0.4);}
+    100% {box-shadow: 0 0 0 16px rgba(255, 0, 0, 0);}
   }
 }
 #part-worksSingle {
